@@ -10,8 +10,8 @@ Four algorithms are trained and compared with **TorchRL** on the same custom Gym
 ## Quick start
 
 ```bash
-git clone https://github.com/Dankagame/YOUR_NAME_rl_summative.git
-cd YOUR_NAME_rl_summative
+git clone https://github.com/Mbonyumugisha-Prince/prince_mbonyumugenzi_rl_summative.git
+cd prince_mbonyumugenzi_rl_summative
 uv sync
 uv run main.py                 # best agent (PPO), 3 episodes, pygame window + terminal log
 ```
