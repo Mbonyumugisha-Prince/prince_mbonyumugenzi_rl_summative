@@ -1,0 +1,5 @@
+algo,name,eval_train_mean,eval_test_mean,eval_test_std,eval_test_stochastic_mean,steps_to_break_even
+DQN,dqn_03_high_lr,406.7,378.6,274.4,,46600
+REINFORCE,reinforce_03_high_lr,114.8,42.7,411.3,120.9,88200
+PPO,ppo_08_short_rollout,415.8,388.1,273.4,314.5,46592
+A2C,a2c_09_short_rollout,365.7,318.5,261.1,345.6,62272

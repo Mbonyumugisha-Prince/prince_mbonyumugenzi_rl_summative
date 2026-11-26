@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Datasets: raw Kaggle files are too large for git (450 MB).
+# Only the small processed file the environment needs (3 MB) is committed.
+data/raw/
+data/processed/*
+!data/processed/selected_products.csv
+
+# macOS
+.DS_Store
